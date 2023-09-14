@@ -4,10 +4,10 @@
   -->
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="@dimen/tedbottompicker_selected_image_height"
-             android:layout_height="@dimen/tedbottompicker_selected_image_height"
-             android:paddingLeft="@dimen/tedbottompicker_grid_layout_margin"
-             android:paddingRight="@dimen/tedbottompicker_grid_layout_margin">
+             android:layout_width="@dimen/bottompicker_selected_image_height"
+             android:layout_height="@dimen/bottompicker_selected_image_height"
+             android:paddingLeft="@dimen/bottompicker_grid_layout_margin"
+             android:paddingRight="@dimen/bottompicker_grid_layout_margin">
 
     <ImageView
         android:id="@+id/selected_photo"

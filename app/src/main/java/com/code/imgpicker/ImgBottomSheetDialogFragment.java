@@ -602,7 +602,6 @@ public class ImgBottomSheetDialogFragment extends BottomSheetDialogFragment {
                 });
     }
 
-
     private void onActivityResultGallery(Intent data) {
         Uri temp = data.getData();
 
@@ -622,7 +621,6 @@ public class ImgBottomSheetDialogFragment extends BottomSheetDialogFragment {
         complete(selectedImageUri);
 
     }
-
 
     public interface OnMultiImageSelectedListener {
         void onImagesSelected(List<Uri> uriList);

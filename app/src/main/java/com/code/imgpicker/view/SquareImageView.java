@@ -6,7 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 
-import com.tbi.tbimultiimagepicker.R;
+import com.code.imgpicker.R;
 
 
 /**

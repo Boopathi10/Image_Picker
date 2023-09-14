@@ -4,4 +4,5 @@
 
     <dimen name="bottompicker_selected_image_height">90dp</dimen>
 
+    <dimen name="img_picker">3dp</dimen>
 </resources>

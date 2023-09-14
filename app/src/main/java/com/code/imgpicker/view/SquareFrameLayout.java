@@ -5,7 +5,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import com.tbi.tbimultiimagepicker.R;
+import com.code.imgpicker.R;
 
 
 /**

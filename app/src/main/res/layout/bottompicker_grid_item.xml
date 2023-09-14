@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<com.tbi.tbimultiimagepicker.view.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.code.imgpicker.view.SquareFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/root"
     android:layout_width="match_parent"
@@ -11,7 +12,7 @@
 
     >
 
-    <com.tbi.tbimultiimagepicker.view.SquareImageView
+    <com.code.imgpicker.view.SquareImageView
         android:id="@+id/iv_thumbnail"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,4 +22,4 @@
         />
 
 
-</com.tbi.tbimultiimagepicker.view.SquareFrameLayout>
+</com.code.imgpicker.view.SquareFrameLayout>

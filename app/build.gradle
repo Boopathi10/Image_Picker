@@ -23,8 +23,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_15
+        targetCompatibility JavaVersion.VERSION_15
     }
 
     buildFeatures {
@@ -47,4 +47,10 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
 
     implementation "io.reactivex.rxjava2:rxjava:2.2.9"
+
+    //circle image
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    // Permission Handle
+    implementation 'gun0912.ted:tedpermission:2.2.0'
 }
